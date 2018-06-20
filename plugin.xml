@@ -117,7 +117,7 @@
   </platform>
   <platform name="android">
     <!-- Plugin inclusion in Cordova config.xml -->
-    <config-file parent="/*" target="res/xml/config.xml">
+    <config-file parent="/*" target="app/src/res/xml/config.xml">
       <feature name="HotCodePush">
         <param name="android-package" value="com.nordnetab.chcp.main.HotCodePushPlugin"/>
         <param name="onload" value="true"/>
